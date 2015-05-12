@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XMLSET - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Temp\RSP148.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "C:\xerces-c-windows_2000-msvc_60\include" /I "C:\Xalan-C_1_10_0-win32-msvc_60\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_UNICODE" /D "UNICODE" /Fp"Release/XMLSET.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\UAB\Projects\GSS\XMLSET\XMLSET.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSP148.tmp" 
+Creating temporary file "D:\Temp\RSP149.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib advapi32.lib version.lib C:\xerces-c-windows_2000-msvc_60\lib\xerces-c_2.lib C:\Xalan-C_1_10_0-win32-msvc_60\lib\Xalan-C_1.lib /nologo /subsystem:console /incremental:no /pdb:"Release/XMLSET.pdb" /machine:I386 /out:"Release/XMLSET.exe" 
+.\Release\Resources.obj
+.\Release\SAXErrorHandler.obj
+.\Release\StdAfx.obj
+.\Release\XGetopt.obj
+.\Release\XMLProc.obj
+.\Release\XMLSET.obj
+.\Release\resource.res
+]
+Creating command line "link.exe @D:\Temp\RSP149.tmp"
+<h3>Output Window</h3>
+Compiling...
+XMLSET.cpp
+Linking...
+   Creating library Release/XMLSET.lib and object Release/XMLSET.exp
+
+
+
+<h3>Results</h3>
+XMLSET.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

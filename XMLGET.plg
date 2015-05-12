@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XMLGET - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\Temp\RSPB5.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "C:\xerces-c-windows_2000-msvc_60\include" /I "C:\Xalan-C_1_10_0-win32-msvc_60\include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_UNICODE" /D "UNICODE" /Fp"Release/XMLGET.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\UAB\Projects\GSS\XMLGET\XMLProc.cpp"
+]
+Creating command line "cl.exe @D:\Temp\RSPB5.tmp" 
+Creating temporary file "D:\Temp\RSPB6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib advapi32.lib version.lib C:\xerces-c-windows_2000-msvc_60\lib\xerces-c_2.lib C:\Xalan-C_1_10_0-win32-msvc_60\lib\Xalan-C_1.lib /nologo /subsystem:console /incremental:no /pdb:"Release/XMLGET.pdb" /machine:I386 /out:"Release/XMLGET.exe" 
+.\Release\Resources.obj
+.\Release\SAXErrorHandler.obj
+.\Release\StdAfx.obj
+.\Release\XGetopt.obj
+.\Release\XMLProc.obj
+.\Release\XMLGET.obj
+.\Release\resource.res
+]
+Creating command line "link.exe @D:\Temp\RSPB6.tmp"
+<h3>Output Window</h3>
+Compiling...
+XMLProc.cpp
+Linking...
+   Creating library Release/XMLGET.lib and object Release/XMLGET.exp
+
+
+
+<h3>Results</h3>
+XMLGET.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
